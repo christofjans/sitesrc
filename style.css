@@ -3,7 +3,7 @@ body {
     color: #555;
 }
 
-h1 {
+h1, h2, h3, h4, h5 {
     font-family: 'Calibri Light', Helvetica, Arial, sans-serif;
 }
 
@@ -15,7 +15,6 @@ h1 {
 #content {
     width: 700px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    /*font-family: Arial, Helvetica, sans-serif;*/
     font-size: 19px;
 }
 
@@ -24,9 +23,17 @@ h1 {
     margin: 100px 10px 10px 10px;
 }
 
-
-
 code {
+    background-color: lightgray;
+    font-size: 0.8em;
+}
+
+pre code {
+    border-radius: 5px;
+}
+
+
+/*code {
     background-color: rgb(240, 240, 240);
     font-size: 0.8em;
     font-family: monospace;
@@ -45,7 +52,7 @@ pre {
 pre code {
     background-color: black;
     color: lightgray;
-}
+}*/
 
 a {
     text-decoration: none;
