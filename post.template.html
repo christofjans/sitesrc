@@ -10,11 +10,14 @@
             <div id="leftnav">
                 <ul>
                     {{#each posts}}
-                        <li><a href="{{this.FileName}}">{{this.Title}}</a></li>
+                    <li><a href="{{this.FileName}}">{{this.Title}}</a></li>
                     {{/each}}
                 </ul>
             </div>
             <div id="content">
+                <a href="index.html" >BLOG</a>
+                <a href="about.html" >ABOUT</a>
+                <a href="rss.xml" style="float: right;" >RSS</a>
                 <h1>{{title}}</h1>
                 <div id="pubdate">{{date}}</div>
                 {{{html}}}
