@@ -1,0 +1,8 @@
+{
+    "Title": "The blog of Christof Jans",
+    "Description": "occasionally helpful",
+    "Link": "https://blog.christofjans.com/rss.xml",
+    "Author": "Christof Jans",
+    "AuthorEmail": "christofjans@gmail.com",
+    "PostUrlTemplate": "https://blog.christofjans.com/{0}"
+}
