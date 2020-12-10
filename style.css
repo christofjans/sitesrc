@@ -3,6 +3,10 @@ body {
     color: #555;
 }
 
+h1 {
+    font-family: 'Calibri Light', Helvetica, Arial, sans-serif;
+}
+
 #container {
     display: flex;
     justify-content: center;
