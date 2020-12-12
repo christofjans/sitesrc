@@ -50,18 +50,24 @@ Quote test:
 > Suppose you were an idiot and suppose you were a member of congress; but I repeat myself .
 > - Mark Twain
 
-Javascript animation test:
+Javascript test:
 
 <div id="datetime"></div>
 
 Table test:
 
-a | b
--- | -
-0 | 1
+item | price
+-----|----------:
+xbox | `$300.00`
+food | `$40.00`
 
+This is text that has been ==marked== .
 
-------
+2^10^ = 1024
+
+H~2~O is a liquid .
+
+This is text that has been ~~deleted~~ .
 
 This is the end of this test post.  
 
