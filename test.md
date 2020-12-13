@@ -47,8 +47,8 @@ Youtube test:
 
 Quote test:
 
-> Suppose you were an idiot and suppose you were a member of congress; but I repeat myself .
-> - Mark Twain
+> **Mark Twain:** Suppose you were an idiot and suppose you were a member of congress; but I repeat myself .
+
 
 Javascript test:
 

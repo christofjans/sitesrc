@@ -56,6 +56,6 @@ ValueTask<T> IJSRuntime.InvokeAsync<T>(string identifier, object?[]? args)
 
 The `identifier` parameter is the Javascript method you want to call ("confirm" in our case). Next are the arguments you want to pass to that Javascript method.
 
-There is a lot more to say about blazor/js interop. If you are interested you can read about it [here](https://docs.microsoft.com/en-us/aspnet/core/blazor/call-javascript-from-dotnet?view=aspnetcore-5.0) .
+> **Tip:** There is a lot more to say about blazor/js interop. If you are interested you can read about it [here](https://docs.microsoft.com/en-us/aspnet/core/blazor/call-javascript-from-dotnet?view=aspnetcore-5.0) .
 
 Hope this helps.
