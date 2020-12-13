@@ -34,7 +34,7 @@ Enter `IJSRuntime` :
 @code {
     public async Task Delete()
     {
-        if (await js.InvokeAsync<bool>("confirm", "Are you sure"))
+        if (await js.InvokeAsync<bool>("confirm", "Are you sure ?"))
         {
             // delete something
         }
@@ -45,7 +45,7 @@ Enter `IJSRuntime` :
 We inject the `IJSRuntime` service with the `@inject` directive. In the `Delete` method, we invoke the `confirm` method as follows:
 
 ```cs
-js.InvokeAsync<bool>("confirm", "Are you sure")
+js.InvokeAsync<bool>("confirm", "Are you sure ?")
 ```
 
 The signature for `InvokeAsync` is :
@@ -54,7 +54,7 @@ The signature for `InvokeAsync` is :
 ValueTask<T> IJSRuntime.InvokeAsync<T>(string identifier, object?[]? args)
 ```
 
-The `identifier` parameter is the Javascript method you want to call ("confirm" in our case). Next are the arguments you want to pass to that Javascrit method.
+The `identifier` parameter is the Javascript method you want to call ("confirm" in our case). Next are the arguments you want to pass to that Javascript method.
 
 There is a lot more to say about blazor/js interop. If you are interested you can read about it [here](https://docs.microsoft.com/en-us/aspnet/core/blazor/call-javascript-from-dotnet?view=aspnetcore-5.0) .
 
