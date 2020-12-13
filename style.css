@@ -59,7 +59,7 @@ table {
 
 tr {
     border-bottom: 1px solid #ccc;
-}
+}   
 
 blockquote {
     border-left: 1px solid rgb(212,74,52);
@@ -68,6 +68,11 @@ blockquote {
 
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 @media screen and (max-width:900px) {
