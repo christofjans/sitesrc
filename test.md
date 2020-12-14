@@ -52,7 +52,7 @@ Quote test:
 
 Javascript test:
 
-<div id="datetime"></div>
+<canvas id="animdemo" width="512" height="128" ></canvas>
 
 Table test:
 
@@ -63,18 +63,16 @@ food | `$40.00`
 
 This is text that has been ==marked== .
 
-2^10^ = 1024
+superscript test: 2^10^ = 1024
 
-H~2~O is a liquid .
+subscript test: H~2~O is a liquid .
 
 This is text that has been ~~deleted~~ .
 
 This is the end of this test post.  
 
-<script type="text/javascript">
-    setInterval(function(){
-        var element = document.getElementById('datetime');
-        var d = new Date();
-        element.innerHTML = `${d.getHours()}:${d.getMinutes()}:${d.getSeconds()}`
-    }, 400);
+<script type="module" >
+    import {run} from './animdemo.js'
+
+    run('animdemo');
 </script>
