@@ -20,7 +20,7 @@ Consider the following scenario:
 
 When clicking the button, the `Delete` method will be called which - presumably - will delete something. 
 
-Now suppose we wanted to add a confirmation dialog. In javascript there exists a `confirm` method: `if confirm("Are you sure ?") {...}`. But how would we call that method from Blazor ?
+Now suppose we wanted to add a confirmation dialog. In javascript there exists a `confirm` method: `if (confirm("Are you sure ?")) {...}`. But how would we call that method from Blazor ?
 
 Enter `IJSRuntime` :
 
