@@ -52,7 +52,7 @@ Quote test:
 
 Javascript test:
 
-<canvas id="animdemo" width="512" height="128" ></canvas>
+<canvas id="clock" width="256" height="256" ></canvas>
 
 Table test:
 
@@ -72,7 +72,7 @@ This is text that has been ~~deleted~~ .
 This is the end of this test post.  
 
 <script type="module" >
-    import {run} from './animdemo.js'
+    import {runclock} from './clock.js'
 
-    run('animdemo');
+    runclock('clock');
 </script>
