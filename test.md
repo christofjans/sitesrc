@@ -1,4 +1,4 @@
-{"title":"Test","date":"2013-07-14"}
+{"title":"Test","date":"2013-07-14","math":true}
 
 
 This is a test post of my new "blog-engine". The world clearly does not have enough blog engines so I decided to write my own. It uses git, .NET Core and Markdown on the client and is hosted on GitHub.

@@ -1,4 +1,4 @@
-{"title":"Find the culprit with git bisect","date":"2014-03-18"}
+{"title":"Find the culprit with git bisect","date":"2014-03-18","math":true}
 
 Suppose you are developing your application, merrily committing code when suddenly you realize that a bug has been introduced. You know for sure an earlier commit was correct but the last commit is not. The bug was introduced somewhere between these 2 commits, but where?  
 
