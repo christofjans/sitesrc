@@ -34,7 +34,7 @@ That is a mouthful so let's go over it step by step
 * `--print-to-pdf` : the path to the outputted PDF file
 * The last argument is the path to the HTML input file
 
-I've noticed that headless chrome only works with absolute paths, not relative paths. You can use [`Resolve-Path`](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/resolve-path?view=powershell-7.1) to transform a relative path into an absolute path.
+> **Warning** : I've noticed that headless chrome only works with absolute paths, not relative paths. You can use [`Resolve-Path`](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/resolve-path?view=powershell-7.1) to transform a relative path into an absolute path.
 
 The final script is this:
 
@@ -50,3 +50,4 @@ $pdfpath = "$markdownpath.pdf"
 & "$($Env:ProgramFiles) (x86)\Google\Chrome\Application\chrome.exe"  --headless --disable-gpu --print-to-pdf-no-header --print-to-pdf=$pdfpath  $htmlpath
 ```
 
+Hope this helps.
