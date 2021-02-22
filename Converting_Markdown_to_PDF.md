@@ -22,7 +22,7 @@ Converting Markdown to HTML is as simple as
 [Headless Chrome](https://developers.google.com/web/updates/2017/04/headless-chrome) is a way to run chrome without a user interface. The command to print HTML to PDF is:
 
 ```powershell
-& chrome --headless --disable-gpu --print-to-pdf-no-header --print-to-pdf=E:\output.pdf  E:\out.html
+& chrome --headless --disable-gpu --print-to-pdf-no-header --print-to-pdf=E:\output.pdf  E:\input.html
 ```
 
 That is a mouthful so let's go over it step by step
