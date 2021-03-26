@@ -15,7 +15,7 @@ My name is Christof Jans. I am a software developer based in Tampa, FL. Here are
 * Windows Terminal
 * Azure
 
-I'm [azure certified](https://www.youracclaim.com/badges/e63c7136-f70e-4daf-b214-c3108470e876/public_url).
+I am [Azure certified](https://www.youracclaim.com/badges/e63c7136-f70e-4daf-b214-c3108470e876/public_url).
 
 How to reach me: [christofjans@gmail.com](mailto:christofjans@gmail.com)
 
