@@ -2,7 +2,7 @@
 
 JwtAuthLib is a .NET library to help implement authentication for WebApi projects without using .Net Core identity. As the name implies it uses Jwt bearer tokens.
 
-[The implementation](https://github.com/christofjans/jwtauthlib) of this library relies heavily on [this blog post by Rick Strahl](https://weblog.west-wind.com/posts/2021/Mar/09/Role-based-JWT-Tokens-in-ASPNET-Core) (and blatantly steals some code; thanks Rick !).
+[The implementation](https://github.com/christofjans/jwtauthlib) of this library relies heavily on [this blog post by Rick Strahl](https://weblog.west-wind.com/posts/2021/Mar/09/Role-based-JWT-Tokens-in-ASPNET-Core) (and blatantly steals some code; thanks Rick 😉).
 
 ## Interfaces
 
