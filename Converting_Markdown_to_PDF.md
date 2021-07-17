@@ -38,7 +38,7 @@ That is a mouthful so let's go over it step by step
 
 The final script is this:
 
-```
+```powershell
 param($markdownpath)
 
 $markdownpath = (Resolve-Path $markdownpath).Path
