@@ -7,13 +7,13 @@ This is a test post of my new "blog-engine". The world clearly does not have eno
 
 Math is awesome. I don't know if I'll be doing a lot of math blogging, but I would like to have the option. I'm using the awesome [MathJax](http://www.mathjax.org) library to render math.
 
-This is inline math: $$[ ax^2 + bx + c = 0 ]$$ .  
+This is inline math: $ax^2 + bx + c = 0$ .  
 
 This is a math paragraph:  
 
-$$[
-    x = {-b \pm \sqrt{b^2-4ac} \over 2a}.
-]$$
+$$
+    x = {-b \pm \sqrt{b^2-4ac} \over 2a}
+$$
 
 ## Code 
 
