@@ -2,14 +2,14 @@ export function run() {
     const images = [
         "./octocat.gif",
         "./matrix-code.gif",
-        "./droid.gif",
+        //"./droid.gif",
+        "./atat.gif",
         "./gandalf.gif",
         "./controller.gif",
         "./pacman.gif",
         "./mancubus.gif",
         "./space-invaders.gif",
         "./spacemarine.gif",
-        "./atat.gif",
         "./cat.gif"
         //"./yin-and-yang.gif",
     ];
