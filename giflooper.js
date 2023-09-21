@@ -9,6 +9,7 @@ export function run() {
         "./mancubus.gif",
         "./space-invaders.gif",
         "./spacemarine.gif",
+        "./atat.gif",
         "./cat.gif"
         //"./yin-and-yang.gif",
     ];
