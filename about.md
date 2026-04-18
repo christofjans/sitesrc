@@ -21,5 +21,5 @@ How to reach me: [christofjans@gmail.com](mailto:christofjans@gmail.com)
 
 ---
 
-![](./csharp64x64.png) ![](./terminal64x64.png) ![](./ts64x64.png) ![](./blazor64x64.png) ![](./sql64x64.png) ![](./vscode64x64.png) ![](./az.png)
+![](./about/csharp64x64.png) ![](./about/terminal64x64.png) ![](./about/ts64x64.png) ![](./about/blazor64x64.png) ![](./about/sql64x64.png) ![](./about/vscode64x64.png) ![](./about/az.png)
 
